@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Alisveris Listesi</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="/icon.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+  
+    
+    
+<div class="container">
+    <div id="form">
+        <form action="" id="form1" class="odak">
+        <label for="liste-input"> <h1>Alışveriş Listesi</h1> </label>
+    <div class="giris">  <input type="text" name="input-liste" id="liste-input" placeholder="iyi alışverişler...">
+        <button id="add" type="button" class="buton1 favorite styled">Ekle</button>  
+    </div>   
+        </form>
+   </div>
+
+
+   <div id="list">
+
+
+   </div>
+  
+
+
+
+ <button  id="confirm-delete" form="form1" type="reset" class="buton2 favorite styled">Hepsini Sil</button>
+
+
+
+</div>  
+
+<script type="text/javascript" src="main.js?v=1"></script>
+ <script type="text/javascript">
+    
+        if (navigator.serviceWorker != null) {
+            navigator.serviceWorker
+                .register('sw.js')
+                .then(function (registration) {
+                    console.log(
+                        'Registered events at scope: ',
+                        registration.scope
+                    );
+                });
+        }
+    </script>
+
+</body>
+</html>
