@@ -2,4 +2,4 @@
 
 
 
-https://akt.kursad.space/
+https://ahmtekemal.tech/shopping-list
